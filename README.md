@@ -6,3 +6,4 @@ I dont know nothing of Kotlin, is a language that I start learning today, Decemb
 
 
 1. [Dia 1](01/)
+1. [Dia 2](02/)
