@@ -1,0 +1,9 @@
+Build and run
+
+kotlinc <fileinput>.kt -include-runtime -d <fileoutput>.jar
+java -jar <fileoutput>.jar                                                                                                                                                                     [21:01:06]
+Hello, World!
+
+Launch script without build (Not work for me)
+
+kotlinc -script <fileinput>.kts
