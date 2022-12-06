@@ -51,9 +51,7 @@ fun readCratesMovements (reader: BufferedReader): ArrayList<IntArray> {
     return movements
 }
 
-
 fun main() {
-
     val file = File("dataset")
     val reader = BufferedReader(FileReader(file))
 
