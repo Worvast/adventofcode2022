@@ -15,27 +15,26 @@ fun main() {
     for (i in 1..size-2){
         for (j in 1..size-2){
             var visible = arrayOf(true, true, true, true)
-            val aux = forest[i][j]
             for(auxi in i-1 downTo 0){
-                if(forest[auxi][j] >= aux) {
+                if(forest[auxi][j] >= forest[i][j]) {
                     visible[0] = false
                     break
                 }
             }
             for(auxi in i+1..size-1){
-                if(forest[auxi][j] >= aux) {
+                if(forest[auxi][j] >= forest[i][j]) {
                     visible[1] = false
                     break
                 }
             }
             for(auxj in j-1 downTo 0){
-                if(forest[i][auxj] >= aux) {
+                if(forest[i][auxj] >= forest[i][j]) {
                     visible[2] = false
                     break
                 }
             }
             for(auxj in j+1..size-1){
-                if(forest[i][auxj] >= aux) {
+                if(forest[i][auxj] >= forest[i][j]) {
                     visible[3] = false
                     break
                 }
