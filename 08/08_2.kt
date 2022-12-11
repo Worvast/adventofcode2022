@@ -11,7 +11,7 @@ fun main() {
 
     val size = forest.size
     var big = 0
-
+n
     for (i in 0..size-1){
         for (j in 0..size-1){
             var total = arrayOf(0, 0, 0, 0)
